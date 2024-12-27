@@ -1,0 +1,2 @@
+# Dependencies for TFitPiCAN
+PySide6==6.x.x
