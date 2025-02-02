@@ -1,2 +1,2 @@
 # TFitPiCAN_0.1.0
- Raspberrsy Pi CAN-Bus Simulator
+ Raspberry Pi CAN-Bus Simulator
