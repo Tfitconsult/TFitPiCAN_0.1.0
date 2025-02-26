@@ -1,0 +1,21 @@
+# Author: Thomas Fischer
+# License: MIT
+# Description: Dockerfile for running tests on Raspberry Pi ARM architecture
+# Version: 0.1.0
+# Filename: Dockerfile.test
+# Format: Dockerfile
+
+FROM arm32v7/python:3.10-slim
+
+WORKDIR /app
+
+# Copy requirements first to leverage Docker cache
+COPY requirements*.txt ./
+RUN pip install --no-cache-dir -r requirements.txt && \
+    if [ -f requirements-dev.txt ]; then pip install --no-cache-dir -r requirements-dev.txt; fi
+
+# Copy the rest of the application
+COPY . .
+
+# Run tests as the default command
+CMD ["python", "-m", "pytest", "tests/", "--cov=./", "--cov-report=term"]
