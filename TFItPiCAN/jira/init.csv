@@ -1,0 +1,12 @@
+Summary,Description,Issue Type
+Configure Poetry,"Update pyproject.toml with project metadata (name, version, author, license) and add dependencies using Poetry.",Task
+Initial Code Commit,"Populate the src/tfitpican/ package with basic modules and include the standardized file headers in all source files.",Task
+Set Up CI/CD Pipelines,"Create GitHub Actions workflows for running tests (on both Mac and Raspberry Pi), linting, type checking, and building documentation for GitHub Pages.",Task
+Deployment Script,"Develop a deployment script to push the latest code to the test Raspberry Pi via SSH and integrate remote testing into the CI pipeline.",Task
+Branching and Issue Tracking Setup,"Implement branch naming conventions for feature (feature/jira-ticket-id-description) and bugfix (bugfix/github-issue-id-description) branches, and integrate Jira and GitHub issue tracking.",Task
+Documentation Structure,"Outline and create templates for internal documentation in Confluence and public user documentation on GitHub Pages, including automated documentation generation.",Task
+Regular Code Reviews and Merges,"Establish a schedule for merging changes from the develop branch into the main branch to maintain stable releases.",Task
+Versioning and Release Process,"Configure versioning to start at 0.1.0 and automate patch increments (up to 0.1.999) with every change, along with tagging releases.",Task
+Cross-Platform Testing Setup,"Set up testing environments for both Mac and Raspberry Pi, including configuring remote testing within the CI pipeline.",Task
+Testing Suite Development,"Develop and integrate unit and integration tests for core functionalities, including the use of mocks for hardware components.",Task
+
