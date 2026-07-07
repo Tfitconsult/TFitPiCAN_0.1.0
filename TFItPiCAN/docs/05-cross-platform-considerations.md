@@ -67,8 +67,6 @@ The performance characteristics differ significantly between Mac development mac
    - Profile application performance on Raspberry Pi
    - Identify and optimize bottlenecks specific to Raspberry Pi
    - Test with representative load on target hardware
-   - ![](assets/17490147412823.jpg)
-
 
 ```plantuml
 @startuml

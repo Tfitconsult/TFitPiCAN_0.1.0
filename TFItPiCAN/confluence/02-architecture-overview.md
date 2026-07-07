@@ -3,6 +3,7 @@
 The TFItPiCAN architecture follows a modular design with clear separation of concerns. The system is divided into several interconnected packages, each responsible for a specific aspect of functionality.
 
 ## High-Level Architecture Diagram
+![](assets/17490145016942.jpg)
 
 ```plantuml
 @startuml
@@ -60,6 +61,7 @@ package "logging" {
 ```
 
 ## Key Component Relationships
+![](assets/17490145217567.jpg)
 
 ```plantuml
 @startuml

@@ -20,6 +20,8 @@ This chapter provides detailed documentation for each package in the TFItPiCAN s
 ## can_bus_support Package
 
 This package handles the core CAN bus functionality, including message filtering, interpretation, and bus configuration.
+![](assets/17490146736760.jpg)
+
 
 ```plantuml
 @startuml
@@ -135,6 +137,7 @@ Interface for components that need to observe and react to incoming CAN messages
 ## tfitpican_simulator Package
 
 This package contains the simulation components for vehicle behavior and CAN communication interfaces.
+![](assets/17490146512256.jpg)
 
 ```plantuml
 @startuml
